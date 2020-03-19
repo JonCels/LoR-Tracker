@@ -1,4 +1,4 @@
-package exceptions;
+package lor_wintracker.exceptions;
 
 public class TooManyDuplicatesException extends RuntimeException{
     public TooManyDuplicatesException(){

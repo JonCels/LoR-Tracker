@@ -1,7 +1,7 @@
-package src;
+package lor_wintracker.src;
 
-import src.Card;
-import exceptions.*;
+import lor_wintracker.src.Card;
+import lor_wintracker.exceptions.*;
 
 public class Deck{
     private static final int MAX_CARDS = 40, MAX_CHAMPS = 6, MAX_DUPLICATES = 3;

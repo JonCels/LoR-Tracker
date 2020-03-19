@@ -1,4 +1,4 @@
-package exceptions;
+package lor_wintracker.exceptions;
 
 public class InvalidCardNumberException extends RuntimeException{
     public InvalidCardNumberException(){

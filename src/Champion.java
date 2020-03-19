@@ -1,9 +1,9 @@
-package src;
+package lor_wintracker.src;
 
-import src.RarityT;
-import src.RegionT;
-import src.Card;
-import src.Unit;
+import lor_wintracker.src.RarityT;
+import lor_wintracker.src.RegionT;
+import lor_wintracker.src.Card;
+import lor_wintracker.src.Unit;
 
 public class Champion extends Unit{
     private String levelCond;

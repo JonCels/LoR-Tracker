@@ -1,8 +1,8 @@
-package src;
+package lor_wintracker.src;
 
-import src.RegionT;
-import src.RarityT;
-import src.CardT;
+import lor_wintracker.src.RegionT;
+import lor_wintracker.src.RarityT;
+import lor_wintracker.src.CardT;
 
 public class Card{
     private int mana;

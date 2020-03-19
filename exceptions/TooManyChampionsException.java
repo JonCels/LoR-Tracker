@@ -1,4 +1,4 @@
-package exceptions;
+package lor_wintracker.exceptions;
 
 public class TooManyChampionsException extends RuntimeException{
     public TooManyChampionsException(){

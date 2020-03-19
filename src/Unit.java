@@ -1,8 +1,8 @@
-package src;
+package lor_wintracker.src;
 
-import src.RarityT;
-import src.RegionT;
-import src.Card;
+import lor_wintracker.src.RarityT;
+import lor_wintracker.src.RegionT;
+import lor_wintracker.src.Card;
 
 public class Unit extends Card{
     private int power, health;
