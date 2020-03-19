@@ -50,4 +50,8 @@ public class Card{
     public int getDuplicates(){
         return this.duplicates;
     }
+
+    public void addDuplicate(){
+        this.duplicates++;
+    }
 }
