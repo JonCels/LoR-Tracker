@@ -13,7 +13,7 @@ public class Card{
     private CardT cardType;
     private int duplicates;
 
-    public Card(int mana, String name, String text, String[] keywords, RegionT region, RarityT rarity, CardT type, int duplicates){
+    public Card(int mana, String name, String[] keywords, RegionT region, RarityT rarity, CardT type, int duplicates){
         this.name = name;
         this.mana = mana;
         this.region = region;

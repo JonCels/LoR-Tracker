@@ -9,8 +9,8 @@ public class Unit extends Card{
     private CardT cardType;
     private SubT subtype;
 
-    public Unit(int mana, String name, String text, String[] keywords, RegionT region, RarityT rarity, int power, int health, CardT type, SubT subtype, int duplicates){
-        super(mana, name, text, keywords, region, rarity, type, duplicates);
+    public Unit(int mana, String name, String[] keywords, RegionT region, RarityT rarity, int power, int health, CardT type, SubT subtype, int duplicates){
+        super(mana, name, keywords, region, rarity, type, duplicates);
         this.power = power;
         this.health = health;
         this.cardType = type;

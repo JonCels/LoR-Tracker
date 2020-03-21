@@ -8,8 +8,8 @@ import lor_wintracker.src.Card;
 public class Spell extends Card{
     private SpeedT speed;
 
-    public Spell(int mana, String name, String text, String[] keywords, RegionT region, RarityT rarity, SpeedT speed, int duplicates){
-        super(mana, name, text, keywords, region, rarity, CardT.Spell, duplicates);
+    public Spell(int mana, String name, String[] keywords, RegionT region, RarityT rarity, SpeedT speed, int duplicates){
+        super(mana, name, keywords, region, rarity, CardT.Spell, duplicates);
         this.speed = speed;
     }
 

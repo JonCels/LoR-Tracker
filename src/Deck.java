@@ -18,15 +18,15 @@ public class Deck{
         this.version = 0.0;
         this.wins = 0;
         this.losses = 0;
-        
+    
         this.countCards();
         if (this.getChamps() > MAX_CHAMPS){
             throw new TooManyChampionsException("More than 6 champions found");
         }
-
+        
         if (this.numCards != MAX_CARDS) throw new InvalidCardNumberException("Invalid number of cards found");
     }
-
+    
     public int getChamps(){
         return this.champs;
     }
